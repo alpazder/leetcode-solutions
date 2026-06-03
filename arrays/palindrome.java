@@ -1,12 +1,7 @@
 package arrays;
 
 class Solution {
-    public static void main(String[] args) {
-
-    Solution s = new Solution();
-
-    System.out.println(s.isPalindrome(121));
-}
+    
     public boolean isPalindrome(int x) { 
         int original = x;
         int reversed = 0;

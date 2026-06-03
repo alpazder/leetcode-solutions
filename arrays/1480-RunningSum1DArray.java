@@ -1,0 +1,14 @@
+class Solution {
+    public int[] runningSum(int[] nums) { 
+        int sum = 0;
+        for (int i = 0; i < nums.length; i++) {
+            nums[i] = sum + nums[i];
+            sum = nums[i];
+        }           
+        return nums;
+    }
+}
+
+/* check the array length for the first one print it self
+then store the value, print, then add the second value and print and store
+keep doing this until the end */
